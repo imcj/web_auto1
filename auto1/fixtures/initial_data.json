@@ -1,0 +1,52 @@
+[
+  {
+    "pk": 1,
+    "model": "auto1.servergroup",
+    "fields": {
+      "name": "App"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "auto1.servergroup",
+    "fields": {
+      "name": "Memcached"
+    }
+  },
+  {
+    "pk": 1,
+    "model": "auto1.server",
+    "fields": {
+      "group": 1,
+      "name": "App #1",
+      "address": "192.168.1.1"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "auto1.server",
+    "fields": {
+      "group": 2,
+      "name": "Memcached #1",
+      "address": "192.168.1.1"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "auto1.server",
+    "fields": {
+      "group": 1,
+      "name": "App #2",
+      "address": "192.168.1.2"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "auto1.server",
+    "fields": {
+      "group": 2,
+      "name": "Memcached #2",
+      "address": "192.168.1.2"
+    }
+  }
+]
