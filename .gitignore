@@ -13,6 +13,8 @@ sdist
 develop-eggs
 .installed.cfg
 
+*.sqlite3
+
 # Installer logs
 pip-log.txt
 
